@@ -57,9 +57,11 @@ Id - 17103100397
 
 
 
-Id - 17103100414
+Id - 17103100409
 
-![image](https://user-images.githubusercontent.com/52736465/118863497-2ca83f00-b909-11eb-9652-3d67b45ed358.png)
+![image](https://user-images.githubusercontent.com/52736465/118870430-c0313e00-b910-11eb-800d-9fcde143b510.png)
+![image](https://user-images.githubusercontent.com/52736465/118872770-261ec500-b913-11eb-8079-ab978c6f5bee.png)
+
 
 We also should tested there model with a person non-trained and it respond well
 ![image](https://user-images.githubusercontent.com/52736465/118869697-ebfff400-b90f-11eb-91f9-519c93ea17bd.png)
