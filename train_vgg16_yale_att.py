@@ -124,4 +124,5 @@ plt.title("model loss")
 plt.ylabel("Loss")
 plt.xlabel("Epoch")
 plt.legend(["Loss", "Validation Loss"])
+
 plt.show()

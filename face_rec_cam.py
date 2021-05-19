@@ -58,4 +58,3 @@ if __name__ == '__main__':
 
     cap.release()
     cv2.destroyAllWindows()
-    # detect_face_default(face_detector, "test2.jpg")
