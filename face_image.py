@@ -24,14 +24,14 @@ if __name__ == '__main__':
     print(current_dir)
     
 
-    if os.path.exists(current_dir + "/Classes/{}".format(args.classes)):
+    if os.path.isfile(current_dir + "/Classes/{}".format(args.classes)):
         with open(current_dir + "/Classes/{}".format(args.classes), 'r') as file:
             classes = json.load(file)
     else:
         print("There are no classes. Please insert classes.json file")
         exit()
         
-    if os.path.exists(current_dir + "/model/{}".format(args.model)):
+    if os.path.isfile(current_dir + "/model/{}".format(args.model)):
         model = load_model(current_dir + "/model/{}".format(args.model))      
     else:
         print("There are no {} file in folder model.".format(args.mode))
@@ -41,10 +41,27 @@ if __name__ == '__main__':
     face_detector = mtcnn.MTCNN()
     
     image = cv2.imread(current_dir+"/datatest/"+args.data)
-
-    image = detect_face_draw(face_detector, image, model, classes)
+    max_thesold = 0.5
+    image = detect_face_draw(face_detector, image, model, classes, max_thesold = max_thesold)
     image = imutils.resize(image, width=500)
+    cv2.imshow("face",image)
+    cv2.waitKey(20)
+    
     while (True):
+        print("Press Q to exit() or enter you image file to recognize: ")
+        string = input()
+
+        if string.lower() == "q":
+            break
+            
+        if  not os.path.isfile(current_dir+"/datatest/"+string):
+            continue    
+            
+        image = cv2.imread(current_dir+"/datatest/"+string)
+    
+        image = detect_face_draw(face_detector, image, model, classes)
+        image = imutils.resize(image, width=500)
+        
         cv2.imshow("face",image)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break

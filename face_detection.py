@@ -42,7 +42,7 @@ def detect_face_draw (face_detector, image, model= None, classes = None, max_the
                 raise("when mode not None class must decalare")
                 
             face = image[ y:  y_end , x : x_end]
-            line = 15
+            line = 20
             color = (0,0,255)
             
             face = cv2.resize(face, (224,224))
@@ -57,13 +57,13 @@ def detect_face_draw (face_detector, image, model= None, classes = None, max_the
                 label = "unknow"
             else:    
                 label = classes[str(res[0])]
-                print(label)
+                
                                    
                 image = cv2.putText(image, 
                     "{}".format(pre[0][res[0]]) ,
                     (x, y_end + line*2),
                     color= color,
-                    fontScale = 0.4,
+                    fontScale = 0.8,
                     thickness = 1,
                     fontFace=cv2.FONT_HERSHEY_SIMPLEX )
                     
@@ -71,10 +71,10 @@ def detect_face_draw (face_detector, image, model= None, classes = None, max_the
                     label ,
                     (x, y_end + line ),
                     color= color,
-                    fontScale = 0.4,
+                    fontScale = 0.8,
                     thickness = 1,
                     fontFace=cv2.FONT_HERSHEY_SIMPLEX )
-                    
+            print("{}-{}-{}".format(label, pre[0][res[0]], classes[str(res[0])] ))        
             label = ""
             res = 0
         #hiển thị khuôn mặt.
