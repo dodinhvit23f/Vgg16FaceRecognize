@@ -3,7 +3,7 @@ Using VGG16 to Recognize Faces. Research with Thay Viet (thviet79), Tra Oliver (
 
 ![image](https://user-images.githubusercontent.com/52736465/118868023-ea353100-b90d-11eb-80b3-fa5829ecdecb.png)
 
-Clone mtcnn project from https://github.com/ipazc/mtcnn/tree/master/mtcnn to detect human faces.pro
+Clone mtcnn project from https://github.com/ipazc/mtcnn/tree/master/mtcnn to detect human faces.
 
 On this project, we trained model to recognize Face on 3 dataset sample AT&T, Yale and one outer dataset ( students - 26 person - 11-20 images/person)   
 
