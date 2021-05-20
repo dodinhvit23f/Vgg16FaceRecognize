@@ -55,7 +55,8 @@ Yale (15 person):
   ![image](https://user-images.githubusercontent.com/52736465/118952752-666b5b00-b986-11eb-84a2-4975c4014d6c.png)
 
 Student:
-  
+  ![image](https://user-images.githubusercontent.com/52736465/118957486-c237e300-b98a-11eb-9ee0-f60b5791bc05.png)
+
 
 Id - 17103100397
 
