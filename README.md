@@ -68,6 +68,7 @@ Id - 17103100409
 
 ![image](https://user-images.githubusercontent.com/52736465/118870430-c0313e00-b910-11eb-800d-9fcde143b510.png)
 ![image](https://user-images.githubusercontent.com/52736465/118872770-261ec500-b913-11eb-8079-ab978c6f5bee.png)
+![image](https://user-images.githubusercontent.com/52736465/118947758-d9be9e00-b981-11eb-9b57-c093b2244797.png)
 
 
 We also should tested there model with a person non-trained and it respond well
