@@ -35,15 +35,22 @@ Student:
 
 Here is the result after training:
 
-AT&T:
+AT&T(40 person):
+  We trained AT&T dataset by divide to 2 part 40% for training and 60% for validation. Train time 7 minute and maximum validation accuracy it 95% after 20 times trained.
+  
+![image](https://user-images.githubusercontent.com/52736465/118943091-821e3380-b97d-11eb-9305-8ec2b3896508.png)
 
-![image](https://user-images.githubusercontent.com/52736465/118865525-392d9700-b90b-11eb-82de-2ab120f0dbac.png)
+![image](https://user-images.githubusercontent.com/52736465/118943969-52bbf680-b97e-11eb-803f-5d5f73176dd4.png)
 
+Yale (15 person):
+  We trained AT&T dataset by divide to 2 part 40% for training and 60% for validation. Train time 7 minute and maximum validation accuracy it 100% after 20 times trained.
+  
+  ![image](https://user-images.githubusercontent.com/52736465/118945927-21dcc100-b980-11eb-9ddf-0c76d7934563.png)
+  
+  ![image](https://user-images.githubusercontent.com/52736465/118946001-31f4a080-b980-11eb-8aea-f3c4ed28e34c.png)
 
-Yale:
-
-![image](https://user-images.githubusercontent.com/52736465/118865634-58c4bf80-b90b-11eb-93e3-5d986ae3505d.png)
-
+ AT&t + Yale dataset (55 person):
+ We trained AT&T dataset by divide to 2 part 40% for training and 60% for validation. Train time 7 minute and maximum test accuracy it 95% after 20 times trained.
 
 Student:
   
