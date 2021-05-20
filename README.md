@@ -43,18 +43,19 @@ AT&T(40 person):
   ![image](https://user-images.githubusercontent.com/52736465/118952346-11c7e000-b986-11eb-99bc-2415d5334e7e.png)
 
 Yale (15 person):
-  We trained AT&T dataset by divide to 2 part 40% for training and 60% for validation. Train time 7 minute and maximum validation accuracy it 100% after 20 times trained.
+  We trained AT&T dataset by divide to 2 part 40% for training and 60% for validation. Train time 5 minute and maximum validation accuracy it 100% after 20 times trained.
   
   ![image](https://user-images.githubusercontent.com/52736465/118945927-21dcc100-b980-11eb-9ddf-0c76d7934563.png)
   
   ![image](https://user-images.githubusercontent.com/52736465/118952137-e2b16e80-b985-11eb-8c77-e228d612bd39.png)
 
  AT&t + Yale dataset (55 person):
- We trained AT&T dataset by divide to 2 part 40% for training and 60% for validation. Train time 7 minute and maximum test accuracy it 95.76% after 20 times trained.
+ We trained AT&T dataset by divide to 2 part 40% for training and 60% for validation. Train time 14 minute and maximum test accuracy it 95.76% after 20 times trained.
   ![image](https://user-images.githubusercontent.com/52736465/118948079-286c3800-b982-11eb-8379-53a4b4ae00c5.png)
   ![image](https://user-images.githubusercontent.com/52736465/118952752-666b5b00-b986-11eb-84a2-4975c4014d6c.png)
 
 Student:
+  Train time 14 minute 3 hour
   ![image](https://user-images.githubusercontent.com/52736465/118957486-c237e300-b98a-11eb-9ee0-f60b5791bc05.png)
   
   ![image](https://user-images.githubusercontent.com/52736465/119022031-55dcd400-b9ca-11eb-9dd0-9002d8692370.png)
