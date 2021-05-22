@@ -42,6 +42,8 @@ if __name__ == '__main__':
     
     image = cv2.imread(current_dir+"/datatest/"+args.data)
     max_thesold = 0.5
+    # tf.nn.batch_normalization 
+    #image = tf.nn.batch_normalization(image, axis=-1)
     image = detect_face_draw(face_detector, image, model, classes, max_thesold = max_thesold)
     image = imutils.resize(image, width=500)
     cv2.imshow("face",image)

@@ -46,7 +46,7 @@ def detect_face_draw (face_detector, image, model= None, classes = None, max_the
             color = (0,0,255)
             
             face = cv2.resize(face, (224,224))
-            
+            face = face/255
             #cv2.imshow("face",face)
             #cv2.waitKey(1)
             
